@@ -40,7 +40,7 @@ class FireWall():
         self.history.append(action)
 
 
-
+#use the 4th class variable to use for the server history, Also if you see some weird ban code in their i tried it and it did not work i will be adding more versions later on
 MainServer = Server([], [], "", "123.213.10", [])
 MainServerFireWall = FireWall([MainServer])
 
